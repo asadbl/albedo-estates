@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-28T02:29:13.308Z",
+        "reason": "claude: false positive; src/style.css sets hero h1 clamp(64px,10.4vw,176px), section h2 up to 104px, panel h2 54px vs 17px body (verified in screenshots); scanner does not resolve clamp() sizes"
+      }
+    ]
+  }
+}
